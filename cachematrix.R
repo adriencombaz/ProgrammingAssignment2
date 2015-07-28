@@ -1,4 +1,6 @@
 rm(list = ls())
+library(MASS)
+
 ## ASSIGNMENT 2: CACHING THE INVERSE OF A MATRIX
 
 ## The first function, makeCacheMatrix creates a special "matrix", which is really a list containing a function to
